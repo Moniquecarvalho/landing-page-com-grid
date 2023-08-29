@@ -5,12 +5,12 @@ html {
 body {
    display: grid;
    grid-template-areas: "header header header header"
-                        "hero hero hero hero"
-                        "about about about about"
-                        "services services services services"
-                        "projects projects projects projects"
-                        "footer footer footer footer";
-   grid-template-columns:  repeat(4, 1fr);
+      "hero hero hero hero"
+      "about about about about"
+      "services services services services"
+      "projects projects projects projects"
+      "footer footer footer footer";
+   grid-template-columns: repeat(4, 1fr);
    font-size: 1.6rem;
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
@@ -54,13 +54,13 @@ body {
    position: relative;
 }
 
-.hero h2{
-font-weight: 500;
-text-transform: uppercase;
-font-size: 4rem;
+.hero h2 {
+   font-weight: 500;
+   text-transform: uppercase;
+   font-size: 4rem;
 }
 
-.hero:after{
+.hero:after {
    content: url(../images/seta_preta.png);
    height: 35px;
    bottom: 40px;
@@ -68,17 +68,24 @@ font-size: 4rem;
    animation: downarrow 0.6s infinite alternate ease-in-out;
 }
 
-@-webkit-keyframes downarrow{
-   0% { -webkit-transform: translateY(0); opacity: 0.4;}
-   100% { -webkit-transform: translateY(0.4em); opacity: 0.9; }
+@-webkit-keyframes downarrow {
+   0% {
+      -webkit-transform: translateY(0);
+      opacity: 0.4;
+   }
+
+   100% {
+      -webkit-transform: translateY(0.4em);
+      opacity: 0.9;
+   }
 }
 
-@media (max-width: 425px){
-   .hero{
+@media (max-width: 425px) {
+   .hero {
       height: 60vh;
    }
 
-   .hero h2{
+   .hero h2 {
       font-size: 2.5rem;
    }
 }
@@ -91,10 +98,10 @@ font-size: 4rem;
    grid-template-columns: 1fr 1fr;
    background-color: #fff;
    max-width: var(--max-width-size);
-   margin: 0 auto ;
+   margin: 0 auto;
 }
 
-.about .item{
+.about .item {
    padding: 20%;
    display: flex;
    flex-direction: column;
@@ -102,49 +109,49 @@ font-size: 4rem;
    align-content: center;
 }
 
-.about .item h3{
+.about .item h3 {
    font-weight: 700;
    font-size: 4rem;
 }
 
-.about .item p{
+.about .item p {
    font-weight: 400;
    font-size: 1.8rem;
    margin: 30px 0;
 }
 
-.about .image{
+.about .image {
    height: 100%;
    width: 100%;
 }
 
-.about .item .btn-know-more{
-   font-size: 1.6rem; 
+.about .item .btn-know-more {
+   font-size: 1.6rem;
    align-self: flex-start;
 }
 
-.about .item .btn-know-more:hover{
+.about .item .btn-know-more:hover {
    font-weight: 700;
 }
 
-.about .image.right{
+.about .image.right {
    background: url(../images/bridge.jpg) center center no-repeat;
    background-size: cover;
 }
 
-.about .image.left{
+.about .image.left {
    background: url(../images/sky.jpg) center center no-repeat;
    background-size: cover;
 }
 
-@media (max-width:425px){
-   .about .item{
+@media (max-width:425px) {
+   .about .item {
       align-items: center;
    }
 
-   .about{
+   .about {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(4, 1fr) ;
+      grid-template-rows: repeat(4, 1fr);
    }
 }
 
@@ -156,22 +163,22 @@ font-size: 4rem;
    grid-template-columns: 1fr 1fr;
 }
 
-.services .service{
+.services .service {
    padding: 70px 20px;
    text-align: center;
 }
 
-.services .service img{
+.services .service img {
    width: 250px;
    margin-bottom: 30px;
 }
 
-.services .service h3{
+.services .service h3 {
    font-size: 1.8rem;
    font-weight: 700;
 }
 
-.services .service p{
+.services .service p {
    font-size: 2rem;
    font-weight: 400;
    max-width: 400px;
@@ -179,16 +186,16 @@ font-size: 4rem;
    line-height: 25px;
 }
 
-.services .service:nth-child(1){
+.services .service:nth-child(1) {
    background-color: lightskyblue;
 }
 
-.services .service:nth-child(2){
+.services .service:nth-child(2) {
    background-color: lightpink;
 }
 
-@media (max-width:425px){
-   .services{
+@media (max-width:425px) {
+   .services {
       grid-template-columns: 1fr;
    }
 }
@@ -201,24 +208,24 @@ font-size: 4rem;
    grid-template-columns: repeat(4, 1fr);
 }
 
-.projects img{
+.projects img {
    height: 100%;
 }
 
-.projects a:hover{
+.projects a:hover {
    opacity: 0.8;
    transition: 0.3s;
 }
 
-@media (max-width:768px){
-   .projects{
+@media (max-width:768px) {
+   .projects {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
    }
 }
 
-@media (max-width:425px){
-   .projects{
+@media (max-width:425px) {
+   .projects {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, 1fr);
    }
@@ -235,43 +242,44 @@ font-size: 4rem;
    padding: 100px 0;
 }
 
-.footer h4{
+.footer h4 {
    font-weight: 700;
    font-size: 2.5rem;
    margin-bottom: 20px;
 }
 
-.footer nav{
+.footer nav {
    margin: 50px 0;
 }
-.footer nav ul{
+
+.footer nav ul {
    display: flex;
    justify-content: center;
    max-width: 320px;
    margin: 0 auto;
 }
 
-.footer nav ul li a{
+.footer nav ul li a {
    font-weight: 500;
    font-size: 2rem;
    margin: 20px;
 }
 
-.footer nav ul li a:hover{
+.footer nav ul li a:hover {
    font-weight: 700;
    color: aqua;
    transition: 0.3s;
 }
 
-.footer .social i{
+.footer .social i {
    font-size: 2rem;
 }
 
-.footer .social a{
+.footer .social a {
    margin: 20px;
 }
 
-.footer .social a:hover{
+.footer .social a:hover {
    color: aqua;
    transition: 0.3s;
 }
