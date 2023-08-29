@@ -15,7 +15,6 @@
    <br />
    <br />
    <br />
-
    <p><b>Versão Mobile</p>
   <img src="./src/images/mobile.gif" alt="Gif da tela da Agência XYZ versão mobile" width="400" height="500" >
 </div>
@@ -23,18 +22,35 @@
 <br />
 
 ## Como Usar
-Você pode visualizar a página abrindo o arquivo ´index.html' em um navegador da web. Certifique-se de que todos os arquivos CSS, imagens e fontes estejam na mesma pasta ou diretório.
+Você pode visualizar a página abrindo o arquivo `index.html` em um navegador da web. Certifique-se de que todos os arquivos CSS, imagens e fontes estejam na mesma pasta ou diretório.
+<br />
+<br />
 
+## Estrutura do Projeto
+
+- `index.html`: O arquivo principal que contém o conteúdo da página.
+- `src/css/`: A pasta que contém os arquivos CSS para estilizar a página.
+- `src/images/`: A pasta que contém imagens usadas na página.
+- `src/fonts/`: A pasta que contém arquivos de fonte utilizados no projeto.
+<br />
 
 ## Tecnologias Utilizadas
 
-- HTML
-- CSS
-<p align="right"><a href="#readme-top">Voltar ao  inicio</a></p>
+* HTML
+* CSS
+<br />
 
+## Autor
 
+Este projeto foi criado com base no curso do DevQuest.
+<br />
+<br />
 
+## Licença
 
+Este projeto está sob a licença  [Licença MIT](license.md). Você pode obter mais informações sobre a licença no arquivo LICENSE.
+<br />
+<br />
 
 
 
