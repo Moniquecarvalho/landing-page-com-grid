@@ -15,6 +15,7 @@
    <br />
    <br />
    <br />
+
    <p><b>Versão Mobile</p>
   <img src="./src/images/mobile.gif" alt="Gif da tela da Agência XYZ versão mobile" width="400" height="500" >
 </div>
@@ -25,30 +26,11 @@
 Você pode visualizar a página abrindo o arquivo ´index.html' em um navegador da web. Certifique-se de que todos os arquivos CSS, imagens e fontes estejam na mesma pasta ou diretório.
 
 
-
-
-
 ## Tecnologias Utilizadas
 
-* HTML
-* CSS
+- HTML
+- CSS
 <p align="right"><a href="#readme-top">Voltar ao  inicio</a></p>
-
-<br />
-
-## Roteiro
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
